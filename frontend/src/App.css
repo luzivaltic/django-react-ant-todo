@@ -1,0 +1,39 @@
+body {
+  /* background-color: #282c34; */
+  color: #61dafb;
+}
+
+.App {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: min(60%, 500px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+header {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#form-input {
+  width: 100%;
+}
+
+#list-task {
+  width: 100%;
+}
+
+#list-task #task-content {
+  flex: auto;
+  margin-left: 10px;
+}
+
+#list-task button {
+  float: right;
+  padding: 2px 5px;
+  border: none;
+}
